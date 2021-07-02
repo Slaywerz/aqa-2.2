@@ -18,7 +18,7 @@ public class PostmanEcho {
     @Test
     void shouldReturnPostmanEcho() {
         given()
-                .header("Content-type", "application/json")
+                //.header("Content-type", "application/json")
                 .and()
                 .body("some data")
                 //Выполняемые действия
