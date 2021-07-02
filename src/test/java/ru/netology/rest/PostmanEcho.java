@@ -28,6 +28,6 @@ public class PostmanEcho {
                 .then()
                 .statusCode(200)
                 .body("data", equalTo("some data"))
-                .body("headers.host", equalTo("postman-echo.crom"));
+                .body("headers.host", equalTo("postman-echo.com"));
     }
 }
