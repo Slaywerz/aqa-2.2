@@ -19,7 +19,7 @@ public class PostmanEcho {
     void shouldReturnPostmanEcho() {
         given()
                 //.header("Content-type", "application/json")
-                .and()
+                //.and()
                 .body("some data")
                 //Выполняемые действия
                 .when()
